@@ -37,7 +37,9 @@ function Header() {
             <div id="navbarBasicExample" className="navbar-menu">
                 <div className="navbar-start">
                     <a className="navbar-item" href="/">Home</a>
+                    <a className="navbar-item" href="/search">Search</a>
                     <a className="navbar-item" href="/about">About</a>
+                    <a className="navbar-item" href="logs.tsx">Access Logs</a>
                 </div>
             </div>
         </nav>
