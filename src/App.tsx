@@ -1,7 +1,11 @@
 import "./App.css";
 import About from "./Views/About";
 import Home from "./Views/Home";
+<<<<<<< HEAD
 import Search from "./Views/Search"
+=======
+import Search from "./Views/Search";
+>>>>>>> 1601d08c484514ab3c88359a0f1680276b284d78
 
 import React from "react";
 import {
