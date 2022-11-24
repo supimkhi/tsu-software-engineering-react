@@ -72,7 +72,7 @@ export default function Main() {
               <p className="mb-3">{(modalClientData.id ? modalClientData.id.toString() : "")}</p>
               { modalClientData.ClientName &&
                 <>
-                  <label className="has-text-weight-medium">Client Name: </label>
+                  <label className="has-text-weight-medium">Client Na: </label>
                   <p>{(modalClientData.ClientName ? modalClientData.ClientName : "")}</p>
                 </>
               }
@@ -118,7 +118,7 @@ export default function Main() {
                 <thead>
                   <tr>
                     <th>#</th>
-                    <th>Client Name</th>
+                    <th>Storage location</th>
                     <th>State</th>
                     <th>Number of Inventories</th>
                     <th>Number of Contacts</th>

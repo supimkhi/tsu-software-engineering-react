@@ -10,4 +10,32 @@
 .navbar-menu{
   background-color: hsl(0, 0%, 21%);
 }
-
+/* .App{
+  background-color: black;
+  height: 100vh;
+} */
+.title{
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  height: 100px;
+}
+.container2{
+  background-color: red;
+  height: 20vh;
+}
+.container2-column{
+  background-color: gray ;
+  height: 5px;
+  width: 10px;
+}
+.container2-columns{
+  background-color: white;
+  height: 40vh;
+}
+.button{
+  align-items: center;
+}
+table tr th { 
+  text-align:center; 
+}
