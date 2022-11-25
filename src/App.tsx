@@ -19,14 +19,9 @@ function App() {
           <Route path="/">
             <Route index element={<Home/>}></Route>
             <Route path="about" element={<About/>}></Route>
-<<<<<<< HEAD
-            <Route path="search" element={<Search/>}></Route>
-=======
             <Route path="profile" element={<Profile/>}></Route>
             <Route path="search" element={<Search/>}></Route>
             <Route path="Profileinfo" element={<Profileinfo/>}></Route>
-
->>>>>>> project-a/main
           </Route>
         </Routes>
     </Router>
