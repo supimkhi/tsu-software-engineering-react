@@ -59,6 +59,7 @@ export default function Main() {
     }
     
     return(
+      
       <div className="modal is-active">
         <div className="modal-background"></div>
         <div className="modal-card">
@@ -111,7 +112,28 @@ export default function Main() {
   
   return (
     <>
-      <h2 className="is-size-2 pb-6 has-text-weight-medium">Client List</h2>
+            <h2 className="is-size-2 pb-6 has-text-weight-medium has-text-centered">"Company A"</h2>
+      <div className="tile is-ancestor">
+  <div className="tile is-vertical is-parent">
+    <div className="tile is-vertical is-10 is-child box has-text-black notification">
+      <p className="title">One</p>
+      <figure className="image ">
+            {/* <img src="/"> </img> */}
+          </figure>
+    </div>
+    {/* <div className="tile is-child box">
+      <p className="title">Two</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+    </div> */}
+  </div>
+  <div className="tile is-parent">
+    <div className="tile is-vertical is-12 is-child box notification has-text-black">
+      <p className="title">Three</p>
+      <p>Addy:</p> <p>Email</p> <p>Contact #1</p>
+       </div>
+  </div>
+</div>
+      {/* <h2 className="is-size-2 pb-6 has-text-weight-medium has-text-centered">Client List</h2> */}
       <div className="box columns is-centered is-radiusless">
         <div className="column is-12 px-0 py-0"> 
             <table className="table is-striped is-fullwidth">
@@ -142,6 +164,16 @@ export default function Main() {
               closeModal={toggleModal}
               modalState={isModalActive.valueOf()}
             />
+        </div>
+      </div>
+      <div className="content container has-text-centered">
+        {/* <h1 className="title has-text-success">
+        <button className="button is-black">Black</button>
+        <button className="button is-black">Black</button>
+        <button className="button is-black">Black</button>
+        </h1> */}
+        <div className="columns is-centered">
+        <button className="button mt-5 is-black">Black</button>
         </div>
       </div>
     </>

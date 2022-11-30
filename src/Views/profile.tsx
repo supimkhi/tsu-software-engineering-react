@@ -141,7 +141,7 @@ export default function Profile() {
                     <th>Number of Contacts</th>
                     <th></th> */}
                     <th></th>
-                    <th>Game</th>
+                    <th>Companies</th>
                     <th></th>
                   </tr>
                 </thead>
@@ -150,9 +150,10 @@ export default function Profile() {
                     <tr id={(row.id ? row.id.toString() : "")}>
                       <td>{(row.id ? row.id.toString() : "")}</td>
                       <td>{(row.ClientName ? row.ClientName : "")}</td>
+                      <td></td>
                       {/* <td>{(row.AddressState ? row.AddressState : "")}</td> */}
                       {/* <td>{(row.InventoryCount ? row.InventoryCount.toString() : "")}</td> */}
-                      <td>{(row.ContactCount ? row.ContactCount.toString() : "")}</td>
+                      {/* <td>{(row.ContactCount ? row.ContactCount.toString() : "")}</td> */}
                       {/* <td><button className="button is-dark" onClick={() => showModal(i)}>View Client Details</button></td> */}
                     </tr> 
                   )}
