@@ -1,8 +1,8 @@
 import "./App.css";
-import Search from "./Views/Search";
 import About from "./Views/About";
 import Home from "./Views/Home";
-import Profile from "./Views/Profile";
+import Search from "./Views/Search";
+import Profile from "./Views/ProfileInfo";
 
 import React from "react";
 import {
@@ -22,7 +22,6 @@ function App() {
             <Route path="profile" element={<Profile/>}></Route>
             <Route path="search" element={<Search/>}></Route>
             <Route path="Profileinfo" element={<Profileinfo/>}></Route>
-
           </Route>
         </Routes>
     </Router>

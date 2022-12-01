@@ -59,10 +59,6 @@ function Search() {
         </div> */}
 
       </div>
-
-
-
-        
     );
 }
 
